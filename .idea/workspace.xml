@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d72cf255-6e9f-4be6-9db1-4af258a5363c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bbolt.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="G3PluginsProjectSettings">
+    <appliedSettings>
+      <entry key="LinkifyInternalShortlinks" value="true" />
+      <entry key="RecognizedNullableAnnotations" value="true" />
+    </appliedSettings>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1dqhgy1qwqO41fwaWzkH928zZOw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Go Test.cursor_test.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="bbolt" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/cmd/bbolt/main.go" />
+      <package value="go.etcd.io/bbolt" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cursor_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="bbolt" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="go.etcd.io/bbolt" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cursor_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.cursor_test.go" />
+        <item itemvalue="Go Build.go build main.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d72cf255-6e9f-4be6-9db1-4af258a5363c" name="Default Changelist" comment="" />
+      <created>1593158646469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593158646469</updated>
+      <workItem from="1593158651846" duration="336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <auto-vendoring-mode>false</auto-vendoring-mode>
+    <proxy>direct</proxy>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="258" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593158729815">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="418" y="258" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1593158729815" />
+    <state width="1878" height="327" key="GridCell.Tab.0.bottom" timestamp="1593158774604">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="327" key="GridCell.Tab.0.bottom/0.1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1593158774604" />
+    <state width="1878" height="327" key="GridCell.Tab.0.center" timestamp="1593158774604">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="327" key="GridCell.Tab.0.center/0.1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1593158774604" />
+    <state width="1878" height="327" key="GridCell.Tab.0.left" timestamp="1593158774603">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="327" key="GridCell.Tab.0.left/0.1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1593158774603" />
+    <state width="1878" height="327" key="GridCell.Tab.0.right" timestamp="1593158774604">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="327" key="GridCell.Tab.0.right/0.1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1593158774604" />
+    <state x="639" y="428" key="com.intellij.ide.util.TipDialog" timestamp="1593158653956">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="639" y="428" key="com.intellij.ide.util.TipDialog/0.1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1593158653956" />
+  </component>
+</project>
