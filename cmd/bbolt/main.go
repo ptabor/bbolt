@@ -2136,9 +2136,7 @@ Additional options include:
 `, "\n")
 }
 
-
-
-type cmdKeyValueStringer struct {}
+type cmdKeyValueStringer struct{}
 
 func (_ cmdKeyValueStringer) KeyToString(key []byte) string {
 	if isPrintable(string(key)) {
@@ -2156,6 +2154,6 @@ func (_ cmdKeyValueStringer) ValueToString(value []byte) string {
 	}
 }
 
-func CmdKeyValueStringer() bolt.KeyValueStringer{
+func CmdKeyValueStringer() bolt.KeyValueStringer {
 	return cmdKeyValueStringer{}
 }

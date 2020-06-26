@@ -114,12 +114,10 @@ func (tx *Tx) recursivelyCheckPagesInternal(pgid pgid, minKeyClosed, maxKeyOpen 
 	p := tx.page(pgid)
 	pagesStack = append(pagesStack, pgid)
 
-	//fmt.Printf("%v <= %d < %v (%v)\n", minKeyClosed, pgid, maxKeyOpen, pagesStack)
-
 	switch {
 	case p.flags&branchPageFlag != 0:
 		runningMin := minKeyClosed
-		for i, _ := range p.branchPageElements() {
+		for i := range p.branchPageElements() {
 			elem := p.branchPageElement(uint16(i))
 			if i == 0 && runningMin != nil && compareKeys(runningMin, elem.key()) > 0 {
 				ch <- fmt.Errorf("key (%d, %s) on the branch page(%d) needs to be >= to the index in the ancestor. Pages stack: %v",
@@ -143,9 +141,8 @@ func (tx *Tx) recursivelyCheckPagesInternal(pgid pgid, minKeyClosed, maxKeyOpen 
 		return
 	case p.flags&leafPageFlag != 0:
 		runningMin := minKeyClosed
-		for i, _ := range p.leafPageElements() {
+		for i := range p.leafPageElements() {
 			elem := p.leafPageElement(uint16(i))
-			//fmt.Printf("Scanning %v\n", p.leafPageElement(uint16(i)).key())
 			if i == 0 && runningMin != nil && compareKeys(runningMin, elem.key()) > 0 {
 				ch <- fmt.Errorf("key (%d: %s) on leaf page(%d) needs to be >= to the key in the ancestor. Stack: %v",
 					i, keyToString(elem.key()), pgid, pagesStack)
